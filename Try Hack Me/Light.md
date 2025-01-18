@@ -1,4 +1,6 @@
 # Light
+This is a write-up for the "Light" challenge on TryHackMe
+
 https://tryhackme.com/r/room/lightroom
 ## Step 1: Observing behaviour of the netcat application
 When you connect to the target VM using
@@ -9,7 +11,7 @@ You are greeted with a message requesting to enter a username. We are going to e
 
 <img src="./image.png" width=400>
 
-In response you receive a password to the user. Considering the fact that this is a database, we can assume that SQL injection is a possible attack vector. So we can try something simple like:
+In response, you receive a password from the user. Because this is a database, we can assume that SQL injection is a possible attack vector. So we can try something simple like:
 
 <img src="./image-1.png" width=400>
 
